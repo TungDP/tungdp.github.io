@@ -62,6 +62,12 @@
       <!--========================================================================================== -->
           <td>
             <ul>
+	      <li> <b>May 2024:</b> Our manuscript entitled "Partial ordered Wasserstein distance for sequential data" has been accepted for publication in Neurocomputing. </li> 
+              <p></p>
+	      <li> <b>Dec 2023:</b> Our manuscript entitled "Deep Wavelet Convolutional Neural Networks for Multimodal Human Activity Recognition Using Wearable Inertial Sensors" has been accepted for publication in Sensors. </li> 
+              <p></p>
+	      <li> <b>Jul 2023:</b> Our paper "Deep sensor-fusion approach to vehicle detection on bridges using multiple strain sensors" was accepted to International Symposium on Life-Cycle Civil Engineering (IALCCE), 2023. </li> 
+              <p></p>
               <li> <b>Jun 2022:</b> Our manuscript entitled "Kernel Clustering with Sigmoid-based Regularization for Efficient Segmentation of Sequential Data" has been accepted for publication in IEEE Access. </li> 
               <p></p>
               <li> <b>Feb 2022:</b> Our paper "Sensor Data Alignment for Multi-View Bridge Monitoring" was accepted to International Conference on Bridge Maintenance, Safety and Management (IABMAS), 2022. </li> 
@@ -146,6 +152,37 @@
           </tr>
         </tbody></table>
 
+	<!-- 2024==========================================================================================-->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>2024</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+         <!--==========================================================================================-->
+
+           <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src='images/neurocomputing_2024.png' width="200" height="auto">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <mark style="color:red"><b>NEW</b></mark> &nbsp <a href=""><papertitle>Partial ordered Wasserstein distance for sequential data</papertitle></a>
+              <br>
+              <strong>Tung Doan</strong>, Tuan Phan, Phu Nguyen, Khoat Than, Muriel Visani, Atsuhiro Takasu
+              <br>
+              <em>Neurocomputing</em>, 2024
+              <br>
+              <!--<a href="https://openreview.net/forum?id=5JdLZg346Lw">OpenReview</a> &nbsp <a href="https://openreview.net/pdf?id=5JdLZg346Lw">PDF</a> &nbsp <a href="https://arxiv.org/pdf/2110.02999.pdf">ArXiv</a> &nbsp <a href="data/OTM_presentation_ICLR2022.pdf"> Slides </a> &nbsp <a href="data/OTM_poster_ICLR2022.pdf">Poster</a> &nbsp <a href="https://github.com/LituRout/OptimalTransportModeling">Code</a>-->
+              <p></p>
+              <p>Measuring the distance between data sequences is a challenging problem, especially in the presence of outliers and local distortions. Existing measures typically align the two sequences before calculating their distance based on the difference between the corresponding elements. However, those alignments are not flexible enough to accommodate local distortions and severe effects of outliers. In this article, we propose a novel distance, termed as Partial Ordered Wasserstein (POW), which is flexible to align two sequences and robust w.r.t outliers. We further analyze some properties of the proposed distance, and show that POW enables a simple way to automatically and adaptively select the amount of transported mass, so as to accommodate outliers. Two different applications of POW are then studied: time-series classification and multi-step localization. Finally, we conduct extensive experiments on widely available public datasets to evaluate the performance of the proposed distances. Experimental results, obtained via a thorough experimental protocol, show the performance superiority of POW over several existing distance measures. </p>
+            </td>
+         </tr>
+         </tbody></table>          
+
 	<!-- 2023==========================================================================================-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -163,7 +200,7 @@
               <img src='images/sensors_2023.jpg' width="200" height="auto">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <mark style="color:red"><b>NEW</b></mark> &nbsp <a href=""><papertitle>Deep Wavelet Convolutional Neural Networks for Multimodal Human Activity Recognition Using Wearable Inertial Sensors</papertitle></a>
+              <a href=""><papertitle>Deep Wavelet Convolutional Neural Networks for Multimodal Human Activity Recognition Using Wearable Inertial Sensors</papertitle></a>
               <br>
               Thi Hong Vuong, <strong>Tung Doan</strong>, and Atsuhiro Takasu
               <br>
@@ -182,7 +219,7 @@
               <img src='images/ialcce_2023.png' width="200" height="auto">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <mark style="color:red"><b>NEW</b></mark> &nbsp <a href=""><papertitle>Deep sensor-fusion approach to vehicle detection on bridges using
+              <a href=""><papertitle>Deep sensor-fusion approach to vehicle detection on bridges using
 multiple strain sensors</papertitle></a>
               <br>
               Thi Hong Vuong, Takasu Atsuhiro and <strong>Tung Doan</strong>
@@ -191,17 +228,7 @@ multiple strain sensors</papertitle></a>
               <br>
               <!--<a href="https://openreview.net/forum?id=5JdLZg346Lw">OpenReview</a> &nbsp <a href="https://openreview.net/pdf?id=5JdLZg346Lw">PDF</a> &nbsp <a href="https://arxiv.org/pdf/2110.02999.pdf">ArXiv</a> &nbsp <a href="data/OTM_presentation_ICLR2022.pdf"> Slides </a> &nbsp <a href="data/OTM_poster_ICLR2022.pdf">Poster</a> &nbsp <a href="https://github.com/LituRout/OptimalTransportModeling">Code</a>-->
               <p></p>
-              <p>Bridge weighing in motion (BWIM) detects heavy vehicles passing a sensor or
-multiple sensors. Sensor technology with rapid development enables us to monitor bridges
-with multiple types of sensors and cameras. These sensors are installed at different positions
-and require synchronization. In this paper, we propose a novel vehicle detection framework
-for the multiple strain sensors BWIM systems based on a novel deep sensor-fusion approach.
-The proposed framework is composed of three components. The first component collects and
-denoises the strain sensor signal. Then, the cleaning signals are processed by the Wavelet
-transform in the second component to obtain the corresponding coefficient matrices. Finally,
-the third component feeds the coefficient results into an improved deep neural network. It
-extracts complex features through multiple neural layers and can detect vehicle properties
-from multi-view signals. The performance of the proposed framework is evaluated on realworld bridge health monitoring datasets. The results of the experiments show that the proposed framework is reliable and effective for vehicle detection in the BWIM system. </p>
+              <p>Bridge weighing in motion (BWIM) detects heavy vehicles passing a sensor or multiple sensors. Sensor technology with rapid development enables us to monitor bridges with multiple types of sensors and cameras. These sensors are installed at different positions and require synchronization. In this paper, we propose a novel vehicle detection framework for the multiple strain sensors BWIM systems based on a novel deep sensor-fusion approach. The proposed framework is composed of three components. The first component collects and denoises the strain sensor signal. Then, the cleaning signals are processed by the Wavelet transform in the second component to obtain the corresponding coefficient matrices. Finally, the third component feeds the coefficient results into an improved deep neural network. It extracts complex features through multiple neural layers and can detect vehicle properties from multi-view signals. The performance of the proposed framework is evaluated on realworld bridge health monitoring datasets. The results of the experiments show that the proposed framework is reliable and effective for vehicle detection in the BWIM system. </p>
             </td>
          </tr>
          </tbody></table>      
@@ -223,7 +250,7 @@ from multi-view signals. The performance of the proposed framework is evaluated 
               <img src='images/iabmas_2022.png' width="200" height="auto">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <mark style="color:red"><b>NEW</b></mark> &nbsp <a href=""><papertitle>Sensor data alignment for multi-view bridge monitoring</papertitle></a>
+              <a href=""><papertitle>Sensor data alignment for multi-view bridge monitoring</papertitle></a>
               <br>
               Thi Hong Vuong, <strong>Tung Doan</strong>, and Atsuhiro Takasu
               <br>
@@ -242,7 +269,7 @@ from multi-view signals. The performance of the proposed framework is evaluated 
               <img src='images/access_2022.png' width="200" height="auto">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <mark style="color:red"><b>NEW</b></mark> &nbsp <a href=""><papertitle>Kernel Clustering With Sigmoid Regularization for Efficient Segmentation of Sequential Data</papertitle></a>
+              <a href=""><papertitle>Kernel Clustering With Sigmoid Regularization for Efficient Segmentation of Sequential Data</papertitle></a>
               <br>
               <strong>Tung Doan</strong> and Takasu Atsuhiro
               <br>
